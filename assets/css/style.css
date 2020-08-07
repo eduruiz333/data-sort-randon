@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -18,33 +18,39 @@ li {
   padding: 8px;
 }
 
+.nav-item.active a {
+  border: solid 1px;
+  border-color: #e9ecef #e9ecef #dee2e6;
+}
+
 .btn {
   border-radius: 10px;
 }
 
-.bg-red {
+.bg-vermelho {
   background-color: rgb(226, 69, 69);
 }
-.bg-pink{
+.bg-rosa{
   background-color: rgb(201, 114, 193);
 }
 
-.bg-blue{
+.bg-azul{
   background-color: rgb(100, 100, 236);
 }
 
-.bg-cyan{
+.bg-ciano{
   background-color: rgb(107, 235, 235);
 }
 
-.bg-yellow{
+.bg-amarelo{
   background-color: rgb(240, 240, 98);
 }
 
-.bg-green {
+.bg-verde {
   background-color: rgb(109, 231, 109);
 }
 
-.bg-grey {
+.bg-cinza {
   background-color: rgb(194, 194, 194);
 }
+
